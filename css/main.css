@@ -19,6 +19,7 @@ header {
   margin: 0;
   padding: 1rem;
   transition-duration: 0.5s;
+  display: inherit;
 }
 
 .title:hover {
@@ -79,7 +80,7 @@ a i {
   transition-duration: 0.25s;
 }
 
-a:hover i{
+a:hover i {
   transform: scale(1.1);
   filter: brightness(110%);
 }
