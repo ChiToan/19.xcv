@@ -20,28 +20,36 @@ body{
     height: 50vh;
     display: flex;
     justify-content: center;
+    filter: grayscale(0.7);
 }
 
 .container:hover{
     font-weight: bold;
+    filter: grayscale(0);
 }
 
 .right{
     background-color: burlywood;
+    background-image: url('../img/right_photo.jpg');
+    background-size: cover;
+    /* box-shadow: -4px 0 4px 2px violet; */
 }
 
 .left{
     background-color: plum;
+    background-image: url('../img/left_photo.jpg');
+    background-size: cover;
 }
 
 h1{
     align-self: center;
+    color: white;
     font-weight: inherit;
 }
 
 @media only screen and (min-width: 720px){
     .container{
-        width: 50vw;
+        width: 50%;
         height: 100vh;
         display: flex;
         justify-content: center;
