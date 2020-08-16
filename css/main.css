@@ -4,10 +4,46 @@ body{
     min-height: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .title{
     color: pink;
-    width: fit-content;
+    position: fixed;
+    width: 100%;
     padding: 1rem;
+}
+
+.container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container:hover{
+    font-weight: bold;
+}
+
+.right{
+    background-color: burlywood;
+}
+
+.left{
+    background-color: plum;
+}
+
+h1{
+    align-self: center;
+    font-weight: inherit;
+}
+
+@media only screen and (min-width: 720px){
+    .container{
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
 }
