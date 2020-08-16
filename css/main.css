@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    min-height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title{
+    color: pink;
+    width: fit-content;
+    padding: 1rem;
+}
