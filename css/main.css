@@ -2,22 +2,19 @@ body {
   font-family: "Trirong", serif;
   margin: 0;
   color: goldenrod;
-}
-
-.landing_page {
-  display: block;
   text-align: center;
 }
 
-header {
-  display: flex;
+
+.landing_page {
+  display: block;
 }
 
 .title {
   font-size: xx-large;
   font-weight: 700;
   margin: 0;
-  padding: 1rem;
+  padding: 0 1rem;
   transition-duration: 0.5s;
   display: inherit;
 }
@@ -84,6 +81,68 @@ a:hover i {
   transform: scale(1.1);
   filter: brightness(110%);
 }
+
+.vertical {
+  display: block;
+}
+
+
+/* Marketing */
+.navbar {
+  font-size: large;
+  font-weight: 600;
+}
+
+.navbar a {
+  display: inline-block;
+  transition-duration: 0.25s;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+
+.section_header {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: xx-large;
+  margin-top: 4rem;
+}
+
+.section_split {
+  width: 80vw;
+  margin: auto;
+  border-bottom: 1px solid goldenrod;
+}
+
+.section_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor {
+  display: block;
+  width: 160px;
+  padding: 1em;
+}
+
+.sponsor img {
+  width: 100%;
+  color: currentColor;
+  /* margin: 0 2em; */
+}
+
+.statistic {
+  max-width: 320px;
+  margin: 2rem;
+}
+
+.statistic p {
+  font-size: x-large;
+}
+
 
 @media only screen and (min-width: 720px) {
   .landing_page {
