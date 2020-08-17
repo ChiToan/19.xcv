@@ -1,12 +1,26 @@
-body {
+html {
+  scroll-behavior: smooth;
   font-family: "Trirong", serif;
-  margin: 0;
   color: goldenrod;
+}
+
+body {
+  margin: 0;
   text-align: center;
 }
 
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-15deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
 
-.landing_page {
+.landing-page {
   display: block;
 }
 
@@ -26,6 +40,7 @@ body {
 .category {
   margin: auto;
   width: 50vw;
+  animation: transitionIn 0.75s;
 }
 
 .category:hover {
@@ -33,23 +48,23 @@ body {
   filter: brightness(105%);
 }
 
-.category:hover .category_text {
+.category:hover .category-text {
   color: white;
   background-color: goldenrod;
 }
 
-.category:hover .category_img {
+.category:hover .category-img {
   transform: scale(1.04);
 }
 
-.category_img {
+.category-img {
   max-height: 100%;
   max-width: 12rem;
   object-fit: contain;
   transition-duration: 0.5s;
 }
 
-.category_text {
+.category-text {
   font-size: large;
   font-weight: 600;
   width: min-content;
@@ -82,12 +97,24 @@ a:hover i {
   filter: brightness(110%);
 }
 
-.vertical {
-  display: block;
+
+/* Marketing */
+
+header {
+  position: sticky;
+  width: 100%;
+  background: white;
+  top: 0;
+  padding-bottom: 1rem;
 }
 
 
-/* Marketing */
+.vertical {
+  display: block;
+  animation: transitionIn 0.75s;
+  margin-bottom: 8rem;
+}
+
 .navbar {
   font-size: large;
   font-weight: 600;
@@ -103,20 +130,20 @@ a:hover i {
   filter: brightness(110%);
 }
 
-.section_header {
+.section-header {
   text-transform: uppercase;
   font-weight: 600;
   font-size: xx-large;
   margin-top: 4rem;
 }
 
-.section_split {
+.section-split {
   width: 80vw;
   margin: auto;
   border-bottom: 1px solid goldenrod;
 }
 
-.section_content {
+.section-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -145,7 +172,7 @@ a:hover i {
 
 
 @media only screen and (min-width: 720px) {
-  .landing_page {
+  .landing-page {
     display: grid;
     /* max-width: 1140px; */
     grid-template-columns: auto auto auto;
@@ -168,7 +195,7 @@ a:hover i {
     width: 40vw;
   }
 
-  .category_img {
+  .category-img {
     max-height: 100%;
     width: 100%;
     max-width: 24rem;
