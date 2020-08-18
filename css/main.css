@@ -2,11 +2,44 @@ html {
   scroll-behavior: smooth;
   font-family: "Trirong", serif;
   color: goldenrod;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  scroll-padding-top: 90px;
 }
 
 body {
   margin: 0;
   text-align: center;
+}
+
+body::-webkit-scrollbar {
+  /* Chrome and Safari*/
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea {
+  font-family: "Trirong", serif;
+}
+::-webkit-input-placeholder {
+  font-family: "Trirong", serif;
+}
+:-moz-placeholder {
+  font-family: "Trirong", serif;
+}
+::-moz-placeholder {
+  font-family: "Trirong", serif;
+}
+:-ms-input-placeholder {
+  font-family: "Trirong", serif;
 }
 
 @keyframes transitionIn {
@@ -40,7 +73,7 @@ body {
 .category {
   margin: auto;
   width: 50vw;
-  animation: transitionIn 0.75s;
+  animation: transitionIn 0.8s;
 }
 
 .category:hover {
@@ -62,6 +95,7 @@ body {
   max-width: 12rem;
   object-fit: contain;
   transition-duration: 0.5s;
+
 }
 
 .category-text {
@@ -97,7 +131,6 @@ a:hover i {
   filter: brightness(110%);
 }
 
-
 /* Marketing */
 
 header {
@@ -108,7 +141,6 @@ header {
   padding-bottom: 1rem;
 }
 
-
 .vertical {
   display: block;
   animation: transitionIn 0.75s;
@@ -118,6 +150,7 @@ header {
 .navbar {
   font-size: large;
   font-weight: 600;
+  animation: transitionIn 0.5s;
 }
 
 .navbar a {
@@ -134,42 +167,104 @@ header {
   text-transform: uppercase;
   font-weight: 600;
   font-size: xx-large;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .section-split {
   width: 80vw;
-  margin: auto;
+  margin: 0 auto 1rem auto;
+  margin-bottom: 2rem;
   border-bottom: 1px solid goldenrod;
 }
 
 .section-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0 1em;
+  margin-bottom: 2rem;
 }
 
 .sponsor {
   display: block;
-  width: 160px;
-  padding: 1em;
+  max-width: 160px;
+  width: 40%;
 }
 
 .sponsor img {
   width: 100%;
-  color: currentColor;
-  /* margin: 0 2em; */
 }
 
 .statistic {
+  width: 100%;
   max-width: 320px;
-  margin: 2rem;
 }
 
 .statistic p {
   font-size: x-large;
 }
 
+.contact-form {
+  display: block;
+  max-width: 320px;
+  /* flex-direction: column; */
+}
+
+.contact-form input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.contact-form input:invalid {
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.04);
+}
+
+.contact-form .textarea {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  overflow: hidden;
+  resize: both;
+  box-sizing: border-box;
+  padding: 1em;
+  line-height: normal;
+  min-height: 9em;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: small;
+  text-align: start;
+  color: black;
+}
+
+.contact-form .textarea[contenteditable]:empty::before {
+  content: "Message";
+  color: gray;
+}
+
+.contact-form button {
+  color: currentColor;
+  font-size: large;
+  background: none;
+  font-weight: 800;
+  border: none;
+  margin-top: 1em;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transition-duration: 0.25s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
 
 @media only screen and (min-width: 720px) {
   .landing-page {
