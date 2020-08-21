@@ -4,7 +4,7 @@ html {
   color: goldenrod;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  scroll-padding-top: 90px;
+  scroll-padding-top: 130px;
 }
 
 body {
@@ -74,27 +74,19 @@ textarea {
   margin: auto;
   width: 50vw;
   animation: transitionIn 0.8s;
+  transition-duration: 0.5s;
 }
 
-.category:hover {
-  cursor: pointer;
-  filter: brightness(105%);
-}
 
-.category:hover .category-text {
+.category:hover p {
   color: white;
   background-color: goldenrod;
-}
-
-.category:hover .category-img {
-  transform: scale(1.04);
 }
 
 .category-img {
   max-height: 100%;
   max-width: 12rem;
   object-fit: contain;
-  transition-duration: 0.5s;
 
 }
 
@@ -113,32 +105,13 @@ textarea {
   border-bottom: 1px solid goldenrod;
 }
 
-.footer {
-  margin-top: 3em;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a i {
-  transition-duration: 0.25s;
-}
-
-a:hover i {
-  transform: scale(1.1);
-  filter: brightness(110%);
-}
-
-/* Marketing */
-
 header {
   position: sticky;
   width: 100%;
   background: white;
   top: 0;
   padding-bottom: 1rem;
+  z-index: 10;
 }
 
 .vertical {
@@ -172,8 +145,7 @@ header {
 
 .section-split {
   width: 80vw;
-  margin: 0 auto 1rem auto;
-  margin-bottom: 2rem;
+  margin: 0 auto 0 auto;
   border-bottom: 1px solid goldenrod;
 }
 
@@ -182,8 +154,50 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0 1em;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
+
+.footer {
+  margin-top: 3em;
+}
+
+.footer a:hover{
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+
+.footer a:hover svg{
+  transform: scale(1.1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+a:hover {
+  transform: scale(1.04);
+}
+
+/* Photography */
+
+.shop-item {
+  max-width: 320px;
+  font-weight: bold;
+}
+
+.shop-item img {
+  width: 100%;
+  box-sizing: border-box; 
+  transition-duration: 0.5s;
+}
+
+
+/* Marketing */
+
 
 .sponsor {
   display: block;
