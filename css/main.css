@@ -223,6 +223,7 @@ a:hover {
   display: block;
   max-height: 320px;
   box-sizing: border-box;
+  pointer-events: none;
 }
 
 .wallpaper-content {
