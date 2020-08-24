@@ -284,6 +284,14 @@ a:hover {
   background-color: rgba(255, 0, 0, 0.04);
 }
 
+.contact-form textarea {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  padding: 1em;
+}
+
 .contact-form button {
   color: currentColor;
   font-size: large;
