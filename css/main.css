@@ -77,7 +77,6 @@ textarea {
   transition-duration: 0.5s;
 }
 
-
 .category:hover p {
   color: white;
   background-color: goldenrod;
@@ -87,7 +86,6 @@ textarea {
   max-height: 100%;
   max-width: 12rem;
   object-fit: contain;
-
 }
 
 .category-text {
@@ -152,7 +150,8 @@ header {
 .section-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  grid-gap: 1rem;
   padding: 0 1em;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -162,12 +161,12 @@ header {
   margin-top: 3em;
 }
 
-.footer a:hover{
+.footer a:hover {
   transform: scale(1.1);
   filter: brightness(110%);
 }
 
-.footer a:hover svg{
+.footer a:hover svg {
   transform: scale(1.1);
 }
 
@@ -184,6 +183,13 @@ a:hover {
 
 /* Photography */
 
+.shop-content {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
 .shop-item {
   max-width: 320px;
   font-weight: bold;
@@ -191,13 +197,35 @@ a:hover {
 
 .shop-item img {
   width: 100%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   transition-duration: 0.5s;
 }
 
+.tab {
+  overflow: hidden;
+  width: 100%;
+}
+
+.tab-button.active {
+  filter: brightness(110%);
+}
+
+.tab-content {
+  display: none;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  grid-gap: 1rem;
+  justify-content: center;
+  animation: transitionIn 0.8s;
+}
+
+.tab-content img {
+  display: block;
+  max-height: 320px;
+  box-sizing: border-box;
+}
 
 /* Marketing */
-
 
 .sponsor {
   display: block;
@@ -239,28 +267,6 @@ a:hover {
   border: none;
   border-bottom: 2px solid red;
   background-color: rgba(255, 0, 0, 0.04);
-}
-
-.contact-form .textarea {
-  display: block;
-  width: 100%;
-  margin: 1em auto;
-  overflow: hidden;
-  resize: both;
-  box-sizing: border-box;
-  padding: 1em;
-  line-height: normal;
-  min-height: 9em;
-  border: none;
-  border-bottom: 1px solid black;
-  font-size: small;
-  text-align: start;
-  color: black;
-}
-
-.contact-form .textarea[contenteditable]:empty::before {
-  content: "Message";
-  color: gray;
 }
 
 .contact-form button {

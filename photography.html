@@ -1,90 +1,120 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>19.XCV - Photography</title>
+    <meta name="description" content="Photography" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/44f1a6d7cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>19.XCV</title>
-  <meta name="description" content="Je moeder aan de poeder" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/main.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/44f1a6d7cf.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-</head>
+  <body>
+    <header>
+      <a href="index.html" class="title">19.XCV</a>
+      <div class="navbar">
+        <a href="about.html#about">About</a>
+        |
+        <a href="about.html#contact">Contact</a>
+        |
+        <a href="about.html#services">Services</a>
+      </div>
+    </header>
+    <div class="vertical">
+      <section id="photos">
+        <div class="section-header">Photos</div>
+        <div class="section-split"></div>
+        <div class="section-content">
+          <div class="navbar tab">
+            <a
+              class="tab-button"
+              onclick="openAlbum(event, 'Sunsets')"
+              id="defaultOpen"
+              >Sunsets</a
+            >
+            |
+            <a class="tab-button" onclick="openAlbum(event, 'Creative')"
+              >Creative</a
+            >
+            |
+            <a class="tab-button" onclick="openAlbum(event, 'Portraits')"
+              >Portraits</a
+            >
+            |
+            <a class="tab-button" onclick="openAlbum(event, 'Travel')"
+              >Travel</a
+            >
+          </div>
 
-<body>
-  <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-  <header>
-    <a href="index.html" class="title">19.XCV</a>
-    <div class="navbar">
-      <a href="about.html#about">About</a>
-      |
-      <a href="about.html#contact">Contact</a>
-      |
-      <a href="about.html#services">Services</a>
-    </div>
-  </header>
-  <div class="vertical">
-    <section id="photos">
-      <div class="section-header">Photos</div>
-      <div class="section-split"></div>
-      <div class="section-content">
-        <div class="navbar">
-          <a>Sunsets</a>
-          |
-          <a>Creative</a>
-          |
-          <a>Portraits</a>
-          |
-          <a>Travel</a>
+          <div id="Sunsets" class="tab-content">
+            <img src="img/photography.jpg" alt="photo" />
+          </div>
+
+          <div id="Creative" class="tab-content">
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+          </div>
+
+          <div id="Portraits" class="tab-content">
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+          </div>
+          <div id="Travel" class="tab-content">
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+            <img src="img/photography.jpg" alt="photo" />
+          </div>
         </div>
-        Dit komt later, is best een klus
-      </div>
-    </section>
-    <section id="shop">
-      <div class="section-header">Shop</div>
-      <div class="section-split"></div>
-      <div class="section-content">
-        <a class="shop-item">
-          <img src="img/photography.jpg" alt="photo" />
-          Buying Prints & more
-        </a>
-        <a class="shop-item">
-          <img src="img/photography.jpg" alt="photo" />
-          Buying Artwork License
-        </a>
+      </section>
+      <section id="shop">
+        <div class="section-header">Shop</div>
+        <div class="section-split"></div>
+        <div class="section-content">
+          <div class="shop-content">
+            <a class="shop-item">
+              <img src="img/photography.jpg" alt="photo" />
+              Buying Prints & more
+            </a>
+            <a class="shop-item">
+              <img src="img/photography.jpg" alt="photo" />
+              Buying Artwork License
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="wallpapers">
+        <div class="section-header">Wallpapers</div>
+        <div class="section-split"></div>
+        <div class="section-content"></div>
+      </section>
+      <section id="youtube">
+        <div class="section-header">Tutorials</div>
+        <div class="section-split"></div>
+        <div class="section-content">
+          <iframe
+            style="max-width: 640px;"
+            width="100%"
+            height="360"
+            src="https://www.youtube.com/embed/videoseries?list=UU7A0783pCidialv2SYqj2jw"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </div>
 
-      </div>
-    </section>
-    <section id="wallpapers">
-      <div class="section-header">Wallpapers</div>
-      <div class="section-split"></div>
-      <div class="section-content">
-      </div>
-    </section>
-    <section id="youtube">
-      <div class="section-header">Tutorials</div>
-      <div class="section-split"></div>
-      <div class="section-content">
-        <iframe style="max-width: 640px" width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=UU7A0783pCidialv2SYqj2jw" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>
-  </div>
-
-
-  <script src="js/main.js" async defer></script>
-</body>
-
+    <script src="js/photos.js" async defer>
+    </script>
+  </body>
 </html>
