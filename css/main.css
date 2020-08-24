@@ -225,6 +225,20 @@ a:hover {
   box-sizing: border-box;
 }
 
+.wallpaper-content {
+  display: inherit;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.wallpaper-content img {
+  display: block;
+  max-height: 320px;
+  box-sizing: border-box;
+}
+
 /* Marketing */
 
 .sponsor {
