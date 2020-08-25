@@ -182,7 +182,6 @@ a:hover {
 }
 
 /* Photography */
-
 .shop-content {
   display: grid;
   grid-template-rows: auto;
@@ -208,6 +207,7 @@ a:hover {
 
 .tab-button.active {
   filter: brightness(110%);
+  text-decoration: underline;
 }
 
 .tab-content {
@@ -221,31 +221,38 @@ a:hover {
 
 .tab-content img {
   display: block;
-  max-height: 320px;
+  max-height: 280px;
+  max-width: 100%;
   box-sizing: border-box;
   pointer-events: none;
 }
 
 .wallpaper-content {
-  display: inherit;
-  flex-wrap: wrap;
-  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   grid-gap: 1rem;
-  justify-content: center;
 }
 
 .wallpaper-content img {
   display: block;
   max-height: 320px;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
 /* Marketing */
+.sponsor-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
 
 .sponsor {
   display: block;
-  max-width: 160px;
-  width: 40%;
+  max-width: 200px;
+  width: 100%;
 }
 
 .sponsor img {
@@ -356,5 +363,15 @@ a:hover {
     margin: auto;
     border-left: 1px solid goldenrod;
     border-bottom: 0;
+  }
+
+  .sponsor-content {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+
+
+  .wallpaper-content {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
