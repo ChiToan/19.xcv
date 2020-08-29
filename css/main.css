@@ -237,24 +237,11 @@ a:hover {
   justify-self: center;
 }
 
+.disable-pointer-events {
+  pointer-events: none;
+}
+
 /* Marketing */
-.sponsor-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1rem;
-}
-
-.sponsor {
-  display: block;
-  max-width: 200px;
-  width: 100%;
-}
-
-.sponsor img {
-  width: 100%;
-}
-
 .statistic {
   width: 100%;
   max-width: 320px;
@@ -352,12 +339,6 @@ a:hover {
     border-left: 1px solid goldenrod;
     /* border-bottom: 0; */
   }
-
-  .sponsor-content {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-  }
-
 
   .gallery-content {
     grid-template-columns: repeat(4, 1fr);
