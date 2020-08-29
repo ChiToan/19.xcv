@@ -17,6 +17,6 @@ function openAlbum(evt, album) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(album).style.display = "flex";
+  document.getElementById(album).style.display = "grid";
   evt.currentTarget.className += " active";
 } 

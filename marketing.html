@@ -30,34 +30,64 @@
       <section id="intro">
         <div class="section-header">Introduction</div>
         <div class="section-split"></div>
-        <div class="section-content">I am best, so you should hire me</div>
+        <div class="section-content">
+          <p>
+            I am best, so you should hire me
+          </p></div>
       </section>
 
       <section id="content">
         <div class="section-header">Content</div>
         <div class="section-split"></div>
         <div class="section-content">
-          <div class="sponsor-content">
-            <div class="sponsor">
-              <img src="img/Sponsors/DW/logo.svg" alt="DW" />
-              <img src="img/photography.jpg" alt="photo" />
-              <img src="img/photography.jpg" alt="photo" />
+          <div class="section-content">
+            <div class="navbar tab">
+              <a
+                class="tab-button"
+                onclick="openAlbum(event, 'Sunsets')"
+                id="defaultOpen"
+                >Sunsets</a
+              >
+              |
+              <a class="tab-button" onclick="openAlbum(event, 'Creative')"
+                >Creative</a
+              >
+              |
+              <a class="tab-button" onclick="openAlbum(event, 'Lifestyle')"
+                >Lifestyle</a
+              >
+              |
+              <a class="tab-button" onclick="openAlbum(event, 'Travel')"
+                >Travel</a
+              >
             </div>
-            <div class="sponsor">
-              <img src="img/Sponsors/DW/logo.svg" alt="DW" />
-              <img src="img/photography.jpg" alt="photo" />
-              <img src="img/photography.jpg" alt="photo" />
-            </div>
-            <div class="sponsor">
-              <img src="img/Sponsors/DW/logo.svg" alt="DW" />
-              <img src="img/photography.jpg" alt="photo" />
-              <img src="img/photography.jpg" alt="photo" />
-            </div>
-            <div class="sponsor">
-              <img src="img/Sponsors/DW/logo.svg" alt="DW" />
-              <img src="img/photography.jpg" alt="photo" />
-              <img src="img/photography.jpg" alt="photo" />
-            </div>
+  
+            <picture id="Sunsets" class="tab-content gallery-content">
+              <img src="img/Sponsors/DWwaterroos kopie.jpg" alt="photo" />
+              <img src="img/Sponsors/finito kopie.jpg" alt="photo" />
+              <img src="img/Sponsors/pixelmator foto 1 kopie.jpg" alt="photo" />
+              <img src="img/Sponsors/pixelmator foto 2 kopie.jpg" alt="photo" />
+            </picture>
+  
+            <picture id="Creative" class="tab-content gallery-content">
+              <img src="img/Sponsors/fien.jpg" alt="photo" />
+              <img src="img/Sponsors/DSC00161v2.jpg" alt="photo" />
+              <img src="img/Sponsors/DSC09337 instaformaat.png" alt="photo" />
+              <img src="img/Sponsors/DSC09491 instaformaat final.png" alt="photo" />
+            </picture>
+  
+            <picture id="Lifestyle" class="tab-content gallery-content">
+              <img src="img/Sponsors/EK2.jpg" alt="photo" />
+              <img src="img/Sponsors/ML kopie.jpg" alt="photo" />
+              <img src="img/Sponsors/Thom olson.jpg" alt="photo" />
+              <img src="img/Sponsors/vintage ekster.jpg" alt="photo" />
+            </picture>
+            <picture id="Travel" class="tab-content gallery-content">
+              <img src="img/Sponsors/ekster story.jpg" alt="photo" />
+              <img src="img/Sponsors/IMG_6731.jpg" alt="photo" />
+              <img src="img/Sponsors/IMG_8538 kopie.JPG" alt="photo" />
+              <img src="img/Sponsors/NU.jpg" alt="photo" />
+            </picture>
           </div>
         </div>
       </section>
@@ -80,5 +110,8 @@
     </div>
 
     <script src="js/statistics.js" async defer></script>
+
+    <script src="js/photos.js" async defer>
+    </script>
   </body>
 </html>
