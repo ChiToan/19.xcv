@@ -245,10 +245,15 @@ a:hover {
 .statistic {
   width: 100%;
   max-width: 320px;
+  color: darkgoldenrod;
 }
 
 .statistic p {
   font-size: x-large;
+}
+
+.statistic ul {
+  text-align: start;
 }
 
 .contact-form {
