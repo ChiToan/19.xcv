@@ -1,0 +1,442 @@
+Index: marketing.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html class=\"no-js\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>19.XCV - Marketing</title>\n    <meta name=\"description\" content=\"Marketing\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"stylesheet\" href=\"css/main.css\" type=\"text/css\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap\"\n      rel=\"stylesheet\"\n    />\n    <!-- <script src=\"https://kit.fontawesome.com/44f1a6d7cf.js\" crossorigin=\"anonymous\"></script> -->\n    <script src=\"https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js\"></script>\n  </head>\n\n  <body>\n    <header>\n      <a href=\"index.html\" class=\"title\">19.XCV</a>\n      <div class=\"navbar\">\n        <a href=\"about.html#about\">About</a>\n        |\n        <a href=\"about.html#contact\">Contact</a>\n        |\n        <a href=\"about.html#services\">Services</a>\n      </div>\n    </header>\n    <div class=\"vertical\">\n      <section id=\"intro\">\n        <div class=\"section-header\">Introduction</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <p>\n            \n          As a content creator with a Master in Marketing, my focus is to make content for a company which is unique and has a striking appearance which catch the eye upon a glance while maintaining focused on the product and informative. The best example is the Moon Rose image I made for Daniel Wellington which went viral in 2018. \n            <br />\n            <br />\n            Take a look below for examples \n\n\n          </p></div>\n      </section>\n\n      <section id=\"content\">\n        <div class=\"section-header\">Content</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <div class=\"section-content\">\n            <div class=\"navbar tab\">\n              <a\n                class=\"tab-button\"\n                onclick=\"openAlbum(event, 'Sunsets')\"\n                id=\"defaultOpen\"\n                >Sunsets</a\n              >\n              |\n              <a class=\"tab-button\" onclick=\"openAlbum(event, 'Creative')\"\n                >Creative</a\n              >\n              |\n              <a class=\"tab-button\" onclick=\"openAlbum(event, 'Lifestyle')\"\n                >Lifestyle</a\n              >\n              |\n              <a class=\"tab-button\" onclick=\"openAlbum(event, 'Travel')\"\n                >Travel</a\n              >\n            </div>\n  \n            <picture id=\"Sunsets\" class=\"tab-content gallery-content\">\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/31738670_115370022673444_3942222735786115072_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=OLs7LPCtGLYAX-GxD-e&oh=916123b19dc4a9bb5f426631dc414111&oe=5F743F58\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/30884755_215405202556712_4232698241667301376_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=MyN8xC471PMAX88uvFw&oh=a12d9c2888c42dc689cc55f215690c33&oe=5F7514B7\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/pixelmator foto 1 kopie.jpg\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/118187685_304242514002599_8804191232097087233_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=lLtNfYZvb_cAX-UELUb&oh=df2fe8c748722b20a70a5801342800f5&oe=5F72F8F5\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/23498563_1520627824673690_4459192332704546816_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=s9icjY1Gln0AX9XFs_-&_nc_tp=18&oh=f885457b7d0023239e66ea5dc40b18b7&oe=5F796AED\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/50620944_417209475486773_1144976688016534528_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=SUzJ6Qk0poMAX_glgen&_nc_tp=18&oh=00263d5c75636a599954b18611b70a5d&oe=5F77E4B7\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/20181469_191916328009906_5018829071044313088_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=MwohxS0bAykAX-805Vw&_nc_tp=18&oh=b9b94dbe04268d8a2190e06b93f09277&oe=5F7961B5\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/26070631_161674271268432_8649847384324440064_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=ccaKrV0-k6AAX9uqFee&_nc_tp=18&oh=1fe79c2dd85e758252cad82528150bfb&oe=5F7AFDA1\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/18879627_1535129179893696_3342493920847200256_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=z7RfA1NZ6JgAX9rSdNY&_nc_tp=18&oh=21260ba852a9657d29707860b7f750fe&oe=5F7AE59B\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/44917780_189847508573516_758969165544788699_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=8KExX7bmELwAX8ab_tt&_nc_tp=18&oh=508ce7636b10ad3ce061a179b72ca92e&oe=5F7B803B\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/38517591_304350066981889_9001750453070856192_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=wb6zyywEYmAAX9vroDe&_nc_tp=18&oh=d842e5dd4092720f360dfc9589c222f7&oe=5F7847CA\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/36618238_1487100981393986_8572072415721422848_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=m8YSDK3SNhkAX8o9MyJ&_nc_tp=18&oh=dc549e8b1404feb0ba3130180c841b71&oe=5F7B85F8\" />          \n            </picture>\n  \n            <picture id=\"Creative\" class=\"tab-content gallery-content\">\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/50850070_112216179886312_3778958136160758975_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=n0VizZf2V_0AX8tfQip&oh=72d78e22fba3fbd1d35cd4c356b5818c&oe=5F755442\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/49701248_2166870920240135_6606285035749088733_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=bE1RxdmfCjsAX8qeURJ&oh=6236dabe10663bb1ae5ba45ae507119e&oe=5F73063D\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/DSC09337 instaformaat.png\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/DSC09491 instaformaat final.png\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/65921807_475376849912453_3861172357163924557_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=7X6A_kEZUOUAX-w816e&oh=536503ab7fabb5d67f9853b981c139b5&oe=5F7A7A94\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/47693037_770635999995817_7597124326307931843_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=6BXFXB2kZvgAX9viYQQ&_nc_tp=18&oh=7e236d875e03b8c3823e4e7fe517bdfe&oe=5F79F9FD\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/57488136_319097262097974_8914941353543881419_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=iM0APAtoMxkAX8mfb4W&_nc_tp=18&oh=6539c27a5e7de78d54d97dd8a4a8eb61&oe=5F7ADA0B\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/54512282_435452887215234_2905341924334696366_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=Bh1jWSuIlTEAX_adiB3&_nc_tp=18&oh=41c77178591a8f38da94e8d4f7af9164&oe=5F79C33B\" />\n            </picture>\n  \n            <picture id=\"Lifestyle\" class=\"tab-content gallery-content\">\n              <img src=\"img/Sponsors/EK2.jpg\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/31816090_180270752554876_5702461390665547776_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=DfyBsEeelFsAX_VCv6k&oh=6f24ac5ca90acdf73583d80bf0af4760&oe=5F75662B\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/Thom olson.jpg\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/65276083_116828159588319_4791213298752887967_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103&_nc_ohc=fWU5PA__3egAX8iFOxa&oh=404f2368760cd47ff152481b0780cea0&oe=5F741F79\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/71176732_2376529945792373_4096670388042458245_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=QVdvnhMcbSsAX8j4sy8&oh=74411e2e32a036533e47ba1ea2b58bd7&oe=5F787DCD\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/44401497_548670572232982_2138037409251243379_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=tuUNn5X_KUYAX-KW0F9&_nc_tp=18&oh=30501a55440db06bb0cc6e691130db6b&oe=5F781C56\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/21373409_114643432536736_786658281425731584_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=cD8nnI-K1tcAX-1ltnT&_nc_tp=18&oh=28f467edacc47bfeae9c02c587d2a00e&oe=5F7A604D\" />\n              <img src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/57032380_348770695756244_8568821620518211222_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=cFMMEkhTx_wAX8oFby5&_nc_tp=18&oh=0ccec8853adaaa23a2a8046ae0218ae9&oe=5F7836B0\" />\n            </picture>\n            <picture id=\"Travel\" class=\"tab-content gallery-content\">\n              <img src=\"img/Sponsors/ekster story.jpg\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/IMG_6731.jpg\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/IMG_8538 kopie.JPG\" alt=\"Failed retrieving photo of instagram\" />\n              <img src=\"img/Sponsors/NU.jpg\" alt=\"Failed retrieving photo of instagram\" />\n            </picture>\n          </div>\n        </div>\n      </section>\n\n      <section id=\"demographics\">\n        <div class=\"section-header\">Instagram Demographics</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <div class=\"statistic\">\n            <p>Gender</p>\n            <canvas id=\"gender\" width=\"1000\" height=\"1000\"></canvas>\n          </div>\n\n          <div class=\"statistic\">\n            <p>Age</p>\n            <canvas id=\"age\" width=\"1000\" height=\"1000\"></canvas>\n          </div>\n\n          <div class=\"statistic\">\n            <p>Other</p>\n            <ul>\n              <li>Engagement rate: <b>8.71%</b></li>\n              <li>Avg. post impressions: <b>75K-100K</b></li>\n              <li>Avg. reach per port: <b>65K-100K</b></li>\n            </ul>\n          </div>\n        </div>\n      </section>\n    </div>\n\n    <script src=\"js/statistics.js\" async defer></script>\n\n    <script src=\"js/photos.js\" async defer>\n    </script>\n  </body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- marketing.html	(revision 93e8287c1b8d09055eb0581d4bdff3d29933f18f)
++++ marketing.html	(date 1599088083666)
+@@ -11,13 +11,16 @@
+       href="https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap"
+       rel="stylesheet"
+     />
+-    <!-- <script src="https://kit.fontawesome.com/44f1a6d7cf.js" crossorigin="anonymous"></script> -->
++     <script src="https://kit.fontawesome.com/44f1a6d7cf.js" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+   </head>
+ 
+   <body>
+     <header>
+       <a href="index.html" class="title">19.XCV</a>
++      <a class="btn-toggle"
++      ><i class="fas fa-moon fa-2x"></i
++      ></a>
+       <div class="navbar">
+         <a href="about.html#about">About</a>
+         |
+@@ -32,11 +35,11 @@
+         <div class="section-split"></div>
+         <div class="section-content">
+           <p>
+-            
+-          As a content creator with a Master in Marketing, my focus is to make content for a company which is unique and has a striking appearance which catch the eye upon a glance while maintaining focused on the product and informative. The best example is the Moon Rose image I made for Daniel Wellington which went viral in 2018. 
++
++          As a content creator with a Master in Marketing, my focus is to make content for a company which is unique and has a striking appearance which catch the eye upon a glance while maintaining focused on the product and informative. The best example is the Moon Rose image I made for Daniel Wellington which went viral in 2018.
+             <br />
+             <br />
+-            Take a look below for examples 
++            Take a look below for examples
+ 
+ 
+           </p></div>
+@@ -67,7 +70,7 @@
+                 >Travel</a
+               >
+             </div>
+-  
++
+             <picture id="Sunsets" class="tab-content gallery-content">
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/31738670_115370022673444_3942222735786115072_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=OLs7LPCtGLYAX-GxD-e&oh=916123b19dc4a9bb5f426631dc414111&oe=5F743F58" alt="Failed retrieving photo of instagram" />
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/30884755_215405202556712_4232698241667301376_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=MyN8xC471PMAX88uvFw&oh=a12d9c2888c42dc689cc55f215690c33&oe=5F7514B7" alt="Failed retrieving photo of instagram" />
+@@ -80,9 +83,9 @@
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/18879627_1535129179893696_3342493920847200256_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=z7RfA1NZ6JgAX9rSdNY&_nc_tp=18&oh=21260ba852a9657d29707860b7f750fe&oe=5F7AE59B" />
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/44917780_189847508573516_758969165544788699_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=8KExX7bmELwAX8ab_tt&_nc_tp=18&oh=508ce7636b10ad3ce061a179b72ca92e&oe=5F7B803B" />
+               <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/38517591_304350066981889_9001750453070856192_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=wb6zyywEYmAAX9vroDe&_nc_tp=18&oh=d842e5dd4092720f360dfc9589c222f7&oe=5F7847CA" />
+-              <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/36618238_1487100981393986_8572072415721422848_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=m8YSDK3SNhkAX8o9MyJ&_nc_tp=18&oh=dc549e8b1404feb0ba3130180c841b71&oe=5F7B85F8" />          
++              <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/36618238_1487100981393986_8572072415721422848_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=m8YSDK3SNhkAX8o9MyJ&_nc_tp=18&oh=dc549e8b1404feb0ba3130180c841b71&oe=5F7B85F8" />
+             </picture>
+-  
++
+             <picture id="Creative" class="tab-content gallery-content">
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/50850070_112216179886312_3778958136160758975_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=n0VizZf2V_0AX8tfQip&oh=72d78e22fba3fbd1d35cd4c356b5818c&oe=5F755442" alt="Failed retrieving photo of instagram" />
+               <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/49701248_2166870920240135_6606285035749088733_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=bE1RxdmfCjsAX8qeURJ&oh=6236dabe10663bb1ae5ba45ae507119e&oe=5F73063D" alt="Failed retrieving photo of instagram" />
+@@ -93,7 +96,7 @@
+               <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/57488136_319097262097974_8914941353543881419_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=iM0APAtoMxkAX8mfb4W&_nc_tp=18&oh=6539c27a5e7de78d54d97dd8a4a8eb61&oe=5F7ADA0B" />
+               <img src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/54512282_435452887215234_2905341924334696366_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=Bh1jWSuIlTEAX_adiB3&_nc_tp=18&oh=41c77178591a8f38da94e8d4f7af9164&oe=5F79C33B" />
+             </picture>
+-  
++
+             <picture id="Lifestyle" class="tab-content gallery-content">
+               <img src="img/Sponsors/EK2.jpg" alt="Failed retrieving photo of instagram" />
+               <img src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/31816090_180270752554876_5702461390665547776_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=DfyBsEeelFsAX_VCv6k&oh=6f24ac5ca90acdf73583d80bf0af4760&oe=5F75662B" alt="Failed retrieving photo of instagram" />
+@@ -140,9 +143,8 @@
+       </section>
+     </div>
+ 
+-    <script src="js/statistics.js" async defer></script>
+-
+-    <script src="js/photos.js" async defer>
+-    </script>
++    <script src="js/statistics.js"></script>
++    <script src="js/photos.js"></script>
++    <script src="js/main.js"></script>
+   </body>
+ </html>
+Index: photography.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html class=\"no-js\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>19.XCV - Photography</title>\n    <meta name=\"description\" content=\"Photography\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"stylesheet\" href=\"css/main.css\" type=\"text/css\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap\"\n      rel=\"stylesheet\"\n    />\n    <script\n      src=\"https://kit.fontawesome.com/44f1a6d7cf.js\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js\"></script>\n  </head>\n\n  <body>\n    <header>\n      <a href=\"index.html\" class=\"title\">19.XCV</a>\n      <div class=\"navbar\">\n        <a href=\"about.html#about\">About</a>\n        |\n        <a href=\"about.html#contact\">Contact</a>\n        |\n        <a href=\"about.html#services\">Services</a>\n      </div>\n    </header>\n    <div class=\"vertical\">\n      <section id=\"photos\">\n        <div class=\"section-header\">Photos</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <div class=\"navbar tab\">\n            <a\n              class=\"tab-button\"\n              onclick=\"openAlbum(event, 'Sunsets')\"\n              id=\"defaultOpen\"\n              >Sunsets</a\n            >\n            |\n            <a class=\"tab-button\" onclick=\"openAlbum(event, 'Creative')\"\n              >Creative</a\n            >\n            |\n            <a class=\"tab-button\" onclick=\"openAlbum(event, 'Portraits')\"\n              >Portraits</a\n            >\n            |\n            <a class=\"tab-button\" onclick=\"openAlbum(event, 'Travel')\"\n              >Travel</a\n            >\n          </div>\n\n          <div\n            id=\"Sunsets\"\n            class=\"gallery-content tab-content disable-pointer-events\"\n          >\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/117298305_518648608923086_3873287785887443393_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=lmgh0TlJ-ZAAX94DWmk&oh=93a86379c5fa41a1c5beb08c5d3c8a6c&oe=5F753FF9\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/105407343_185238929615907_6109998863133529082_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103&_nc_ohc=FCLhlhvDBpAAX_PhF_t&oh=40f456f4a0d406abf23d7177342dbc95&oe=5F73D7A3\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/102541189_325888835064333_8151913094466294720_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=RH_YRsm2QbkAX_kMOGA&oh=4a75e53564938883b8feec272fcc51b2&oe=5F75C60A\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/75430278_2454408374878447_4430259143700112781_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=107&_nc_ohc=bLhhrKT38XcAX9WIqA8&oh=0849c2581ec00df37b9b4fe2bb3dcf0d&oe=5F74E2FB\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/81602612_580906852467790_7987034952734307996_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=n7RUcNSbuR0AX-nc26H&oh=8906a92ffa5152acb7f292a2212c5378&oe=5F77D709\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/100906638_271327837341803_4161318237290013624_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=GRJhubLOn0IAX_NARZN&oh=3ff9302dc0136c79a32961f4e69b80b5&oe=5F77E5BE\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/97917086_590788785129446_4823228753610582073_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=ss7zLCGpXM4AX-CJgI3&oh=cab700fdc6a48c4e71a92c61e7c137ad&oe=5F77EBFD\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/118559742_1025260491266062_4181746398156878840_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=j8savG_NgZAAX8LVbFP&_nc_tp=18&oh=550b0f8f8e88a941b6dd74b6f4bb87bc&oe=5F77BEA4\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n          </div>\n\n          <div\n            id=\"Creative\"\n            class=\"gallery-content tab-content disable-pointer-events\"\n          >\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/100966068_2262018157278357_8676605525341234851_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=iHODVONcUGIAX9yhgs_&oh=a03f5e061dd3d915794b6787a4745100&oe=5F7574DC\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/107391034_171178854631312_2721367781511726855_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=kYkntn65UWMAX-hJayx&oh=0eef634c9af1dd821dc4395648d476e2&oe=5F74BD0E\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/96420996_257004152165839_4692161507113581023_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=107&_nc_ohc=W-4WP6u3qw4AX8jqwUr&oh=665996ac050e9721d8712f9e6de7acfe&oe=5F737A19\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/92704640_2790483747667221_124685954148122897_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=LVzKsfTGDQ4AX-r2vhN&oh=700d167191d0003e43857c2849de0d2d&oe=5F73D26C\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/103770139_2834338530025296_4501100046212860181_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=YtZERaICT70AX-73ES0&oh=99af23427f7e0e400082fab3754e5b0d&oe=5F7A7F39\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/87485034_1020841024982864_7133484120255482440_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=d02PgQXgrwUAX_sKU_9&oh=cd9b48110baf7760aec81f2ca436fdfa&oe=5F786DBC\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/79721633_182007553191161_3433148513539678872_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=ZcYDlyqAyc8AX_663Cp&oh=1e7121dfa62bac69feee8d31b96363c8&oe=5F7964A0\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/73358781_202425657421507_92907555784080619_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=107&_nc_ohc=9JCnMug4zikAX8E2qiW&oh=7ab1e62b1d2a884a282d47da35d65ea8&oe=5F7AA76D\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n          </div>\n\n          <div\n            id=\"Portraits\"\n            class=\"gallery-content tab-content disable-pointer-events\"\n          >\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80318872_117824359740598_3264726280609036415_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=u21yR6Ct98AAX_O4xVP&oh=bdcbe041b4587dffbc91d95af24997c2&oe=5F751033\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/62253737_1160808457413797_2324866812085119369_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=Iuka1GvprPMAX9IYQLd&oh=3639fa623987ba35ffdf6c27c3b8648a&oe=5F727601\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/56347806_158753935147163_3601619906665027187_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=xY9ea9k-6xwAX8K7OSk&oh=84cc3506e66e4910dc9b2449e5f919c5&oe=5F73F9A3\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/47692800_368782993937623_3388229174570096238_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=107&_nc_ohc=rD2qF_xnM8QAX-dZsci&oh=3e3eaee44877a74a632ca78423e3c307&oe=5F75CB3A\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/74704991_185501202581532_8138229220781936591_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=cFmCkASmomIAX_yJott&oh=df854e278d99e60698cf961defd2375b&oe=5F789710\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/84340051_173413720624561_6148185151418682833_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=xpxNqFa3S8gAX-2H_bL&oh=ac1f0801b0534ca0170a93111318c3c2&oe=5F787A26\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/51978524_532233167266728_6599892677313592319_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=D8S6Jv1-vacAX92SgdE&_nc_tp=18&oh=04b3a09c2bd26b5f5d47cc95c6eb3c3e&oe=5F7928B9\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/47229465_541319759719151_8322399176752357733_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=Po3tEWc1GfEAX8v7w_A&_nc_tp=18&oh=fb5746ed87af51c7d63758cbc02321ae&oe=5F7825AF\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n          </div>\n          <div\n            id=\"Travel\"\n            class=\"gallery-content tab-content disable-pointer-events\"\n          >\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/46558423_210827566380390_8988976070340410755_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=6uKZgQVq93AAX-RIk8L&oh=abe6527f9105faec34d2b739a2d9a654&oe=5F759EF0\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/44321691_2194720943906079_3993934515748561698_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=103&_nc_ohc=0aVOUuZ3Cw4AX_D3Rw8&oh=8536ee93e1e8a0c3ed17cafd6238a2b6&oe=5F73C128\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/42487493_272796873350310_9219380042166937268_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=LuRrt5W0nWkAX8G1tTi&oh=04f06220417f46fa45a47bda7d1ac3d8&oe=5F7225BD\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/38716098_322452718322405_2753007417498271744_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=JR-ewCymUSEAX_M3-Ep&oh=879477263292a3429cb2ed72291857b0&oe=5F7257CA\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/69332311_361829161429049_512838508437321137_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=ISUVIqt5Le8AX9HkQ0u&oh=9ca0d50b5de60a449ad5f730dcd5036b&oe=5F7A0045\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/37122735_1007934239367384_5615103091599736832_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=100&_nc_ohc=7amWOJk6BMcAX9zaqYX&_nc_tp=18&oh=c076327803d514099ea486465080280a&oe=5F78C3CC\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/38298840_2080857708896090_8592651021375766528_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=lc6Nn4xXgzsAX86yCHd&_nc_tp=18&oh=aaff7bfa534f3fb0019ebff9c6a0325b&oe=5F7893E7\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n            <img\n              src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/39939133_471369676698172_2504755305607331840_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=104&_nc_ohc=rJVssJDBS3IAX_5Yt6M&_nc_tp=18&oh=973da0b6c68193692d62da7407595f6b&oe=5F77ADBC\"\n              alt=\"Failed retrieving photo of instagram\"\n            />\n          </div>\n        </div>\n      </section>\n      <section id=\"shop\">\n        <div class=\"section-header\">Shop</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <div class=\"shop-content\">\n            <a class=\"shop-item\">\n              <img\n                src=\"img/opgeplakt.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n              Buying Prints & more\n            </a>\n            <a class=\"shop-item\">\n              <img\n                src=\"img/license.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n              Buying Artwork License\n            </a>\n          </div>\n        </div>\n      </section>\n      <section id=\"wallpapers\">\n        <div class=\"section-header\">Wallpapers</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <div class=\"gallery-content\">\n            <a href=\"img/Wallpapers/wallpaper 1.jpg\">\n              <img\n                src=\"img/Wallpapers/wallpaper 1.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n            </a>\n            <a href=\"img/Wallpapers/wallpaper 2.jpg\">\n              <img\n                src=\"img/Wallpapers/wallpaper 2.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n            </a>\n            <a href=\"img/Wallpapers/wallpaper 3.jpg\">\n              <img\n                src=\"img/Wallpapers/wallpaper 3.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n            </a>\n            <a href=\"img/Wallpapers/wallpaper 4.jpg\">\n              <img\n                src=\"img/Wallpapers/wallpaper 4.jpg\"\n                alt=\"Failed retrieving photo of instagram\"\n              />\n            </a>\n          </div>\n        </div>\n      </section>\n      <section id=\"youtube\">\n        <div class=\"section-header\">Tutorials</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <iframe\n            style=\"max-width: 640px\"\n            width=\"100%\"\n            height=\"360\"\n            src=\"https://www.youtube.com/embed/videoseries?list=UU7A0783pCidialv2SYqj2jw\"\n            frameborder=\"0\"\n            allowfullscreen\n          ></iframe>\n        </div>\n      </section>\n    </div>\n\n    <script src=\"js/photos.js\" async defer></script>\n  </body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- photography.html	(revision 93e8287c1b8d09055eb0581d4bdff3d29933f18f)
++++ photography.html	(date 1599089351773)
+@@ -11,16 +11,13 @@
+       href="https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap"
+       rel="stylesheet"
+     />
+-    <script
+-      src="https://kit.fontawesome.com/44f1a6d7cf.js"
+-      crossorigin="anonymous"
+-    ></script>
+-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+   </head>
+ 
+   <body>
+     <header>
+       <a href="index.html" class="title">19.XCV</a>
++      <a class="btn-toggle"
++        ><svg aria-hidden="true" width="24" height="auto" focusable="false" data-prefix="far" data-icon="moon" class="svg-inline--fa fa-moon fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M279.135 512c78.756 0 150.982-35.804 198.844-94.775 28.27-34.831-2.558-85.722-46.249-77.401-82.348 15.683-158.272-47.268-158.272-130.792 0-48.424 26.06-92.292 67.434-115.836 38.745-22.05 28.999-80.788-15.022-88.919A257.936 257.936 0 0 0 279.135 0c-141.36 0-256 114.575-256 256 0 141.36 114.576 256 256 256zm0-464c12.985 0 25.689 1.201 38.016 3.478-54.76 31.163-91.693 90.042-91.693 157.554 0 113.848 103.641 199.2 215.252 177.944C402.574 433.964 344.366 464 279.135 464c-114.875 0-208-93.125-208-208s93.125-208 208-208z"></path></svg></a>
+       <div class="navbar">
+         <a href="about.html#about">About</a>
+         |
+@@ -277,6 +274,7 @@
+       </section>
+     </div>
+ 
+-    <script src="js/photos.js" async defer></script>
++    <script src="js/photos.js"></script>
++    <script src="js/main.js"></script>
+   </body>
+ </html>
+Index: about.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html class=\"no-js\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>19.XCV - About</title>\n    <meta name=\"description\" content=\"About\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"stylesheet\" href=\"css/main.css\" type=\"text/css\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap\"\n      rel=\"stylesheet\"\n    />\n  </head>\n\n  <body>\n    <header>\n      <a href=\"index.html\" class=\"title\">19.XCV</a>\n      <div class=\"navbar\">\n        <a href=\"about.html#about\">About</a>\n        |\n        <a href=\"about.html#contact\">Contact</a>\n        |\n        <a href=\"about.html#services\">Services</a>\n      </div>\n    </header>\n    <div class=\"vertical\">\n      <section id=\"about\">\n        <div class=\"section-header\">About</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <p>\n            Hey there! \n            <br />\n            I’m Lân, or as most of you know me as 19.XCV (which\n            stands for 1995).\n            <br />\n            What started as just posting sunset photos that I’ve captured with\n            my phone in 2017 quickly turned into uploading creative and unique\n            images that no one has ever seen before.\n            <br />\n            I always try to find beauty and uniqueness in common scenes or\n            objects, this results in images that you probably know me from like\n            the cloud/moon rose or cloud heart.\n            <br />\n            So thank you for joining my journey and let’s see where it will\n            bring us!\n            <br />\n            <br />\n            For questions or business inquiries please mail me by filling in\n            this form:\n          </p>\n        </div>\n      </section>\n\n      <section id=\"contact\">\n        <div class=\"section-header\">Contact</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <form\n            class=\"contact-form\"\n            action=\"https://app.99inbound.com/api/e/QDhuHtqu\"\n            method=\"POST\"\n            target=\"_blank\"\n          >\n            <input type=\"email\" name=\"email\" placeholder=\"Email*\" />\n            <input type=\"text\" name=\"name\" placeholder=\"Name*\" />\n            <input type=\"text\" name=\"subject\" placeholder=\"Subject\" />\n            <textarea\n              name=\"message\"\n              id=\"\"\n              cols=\"32\"\n              rows=\"6\"\n              placeholder=\"Message\"\n            ></textarea>\n            <button>Submit</button>\n          </form>\n        </div>\n      </section>\n\n      <section id=\"services\">\n        <div class=\"section-header\">Services</div>\n        <div class=\"section-split\"></div>\n        <div class=\"section-content\">\n          <p>\n            <b>Clients:</b>\n            <br />\n            Specific prints\n            <br />\n            Photoshoots\n            <br />\n            <br />\n            <b>Business:</b>\n            <br />\n            Socia Media Consultancy\n            <br />\n            Tailored (commision) content\n            <br />\n            Influencer collaboration\n            <br />\n            <br />\n            Please send me a message for any inquiries\n          </p>\n        </div>\n      </section>\n    </div>\n  </body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- about.html	(revision 93e8287c1b8d09055eb0581d4bdff3d29933f18f)
++++ about.html	(date 1599088083643)
+@@ -11,11 +11,18 @@
+       href="https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap"
+       rel="stylesheet"
+     />
++    <script
++            src="https://kit.fontawesome.com/44f1a6d7cf.js"
++            crossorigin="anonymous"
++    ></script>
+   </head>
+ 
+   <body>
+     <header>
+       <a href="index.html" class="title">19.XCV</a>
++      <a class="btn-toggle"
++      ><i class="fas fa-moon fa-2x"></i
++      ></a>
+       <div class="navbar">
+         <a href="about.html#about">About</a>
+         |
+@@ -104,5 +111,6 @@
+         </div>
+       </section>
+     </div>
++    <script src="js/main.js"></script>
+   </body>
+ </html>
+Index: css/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>html {\n  scroll-behavior: smooth;\n  font-family: \"Trirong\", serif;\n  color: goldenrod;\n  -ms-overflow-style: none; /* IE and Edge */\n  scrollbar-width: none; /* Firefox */\n  scroll-padding-top: 130px;\n  height: 100%;\n}\n\nbody {\n  margin: 0;\n  text-align: center;\n  min-height: 100%;\n}\n\nbody::-webkit-scrollbar {\n  /* Chrome and Safari*/\n  display: none;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: \"Trirong\", serif;\n}\n::-webkit-input-placeholder {\n  font-family: \"Trirong\", serif;\n}\n:-moz-placeholder {\n  font-family: \"Trirong\", serif;\n}\n::-moz-placeholder {\n  font-family: \"Trirong\", serif;\n}\n:-ms-input-placeholder {\n  font-family: \"Trirong\", serif;\n}\n\np {\n  /* font-weight: 500; */\n  color: darkgoldenrod;\n  margin: 0;\n}\n\n@keyframes transitionIn {\n  from {\n    opacity: 0;\n    transform: rotateX(-15deg);\n  }\n  to {\n    opacity: 1;\n    transform: rotateX(0);\n  }\n}\n\n.landing-page {\n  display: block;\n  height: 75vh;\n}\n\n.title {\n  font-size: xx-large;\n  font-weight: 700;\n  margin: 0;\n  padding: 0 1rem;\n  transition-duration: 0.5s;\n  display: inherit;\n}\n\n.title:hover {\n  transform: scale(1.1);\n}\n\n.category {\n  animation: transitionIn 0.8s;\n  transition-duration: 0.5s;\n}\n\n.category:hover p {\n  color: white;\n  background-color: goldenrod;\n}\n\n.category-img {\n  max-height: 40%;\n  max-width: 40vh;\n}\n\n.category-text {\n  font-size: large;\n  font-weight: 600;\n  width: min-content;\n  padding: 0.5em 1em;\n  margin: auto;\n  border: 4px solid goldenrod;\n}\n\n.split {\n  width: 80vw;\n  margin: 0.5rem auto;\n  border-bottom: 1px solid goldenrod;\n}\n\nheader {\n  position: sticky;\n  width: 100%;\n  background: white;\n  top: 0;\n  padding-bottom: 1rem;\n  z-index: 10;\n}\n\n.vertical {\n  display: block;\n  animation: transitionIn 0.75s;\n  margin-bottom: 8rem;\n}\n\n.navbar {\n  font-size: large;\n  font-weight: 600;\n  /* animation: transitionIn 0.5s; */\n}\n\n.navbar a {\n  display: inline-block;\n  transition-duration: 0.25s;\n}\n\n.navbar a:hover {\n  transform: scale(1.1);\n  filter: brightness(110%);\n}\n\n.section-header {\n  text-transform: uppercase;\n  font-weight: 600;\n  font-size: xx-large;\n  margin-top: 2rem;\n}\n\n.section-split {\n  width: 80vw;\n  margin: 0 auto 0 auto;\n  border-bottom: 1px solid goldenrod;\n}\n\n.section-content {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  grid-gap: 1rem;\n  padding: 0 1em;\n  margin-top: 1rem;\n  margin-bottom: 3rem;\n}\n\n.footer {\n  margin-top: 3em;\n}\n\n.footer a:hover {\n  transform: scale(1.1);\n  filter: brightness(110%);\n}\n\n.footer a:hover svg {\n  transform: scale(1.1);\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n  transition-duration: 0.5s;\n  cursor: pointer;\n}\n\na:hover {\n  transform: scale(1.04);\n}\n\n/* Photography */\n.shop-content {\n  display: grid;\n  grid-template-rows: auto;\n  grid-template-columns: 1fr 1fr;\n  column-gap: 2rem;\n}\n\n.shop-item {\n  max-width: 320px;\n  font-weight: bold;\n}\n\n.shop-item img {\n  width: 100%;\n  box-sizing: border-box;\n  transition-duration: 0.5s;\n}\n\n.tab {\n  overflow: hidden;\n  width: 100%;\n}\n\n.tab-button.active {\n  filter: brightness(110%);\n  text-decoration: underline;\n}\n\n.tab-content {\n  display: none;\n  animation: transitionIn 0.8s;\n}\n\n.gallery-content {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: auto;\n  grid-gap: 1rem;\n}\n\n.gallery-content img {\n  display: block;\n  max-height: 320px;\n  max-width: 100%;\n  box-sizing: border-box;\n  object-fit: cover;\n  justify-self: center;\n}\n\n.disable-pointer-events {\n  pointer-events: none;\n}\n\n/* Marketing */\n.statistic {\n  width: 100%;\n  max-width: 320px;\n  color: darkgoldenrod;\n}\n\n.statistic p {\n  font-size: x-large;\n}\n\n.statistic ul {\n  text-align: start;\n}\n\n.contact-form {\n  display: block;\n  max-width: 320px;\n  /* flex-direction: column; */\n}\n\n.contact-form input {\n  border: none;\n  background: none;\n  border-bottom: 1px solid black;\n  width: 100%;\n  box-sizing: border-box;\n  padding: 1em;\n  margin-bottom: 1em;\n}\n\n.contact-form input:invalid {\n  box-shadow: none;\n  border: none;\n  border-bottom: 2px solid red;\n  background-color: rgba(255, 0, 0, 0.04);\n}\n\n.contact-form textarea {\n  border: none;\n  background: none;\n  border-bottom: 1px solid black;\n  font-size: 14px;\n  padding: 1em;\n}\n\n.contact-form button {\n  color: currentColor;\n  font-size: large;\n  background: none;\n  font-weight: 800;\n  border: none;\n  margin-top: 1em;\n  border-left: 2px solid currentColor;\n  border-right: 2px solid currentColor;\n  transition-duration: 0.25s;\n}\n\n.contact-form button:hover {\n  transform: scale(1.1);\n  filter: brightness(110%);\n}\n\n@media only screen and (min-width: 720px) {\n  p {\n    max-width: 720px;\n  }\n\n  .landing-page {\n    display: grid;\n    height: 75vh;\n    grid-template-columns: 1fr 1rem 1fr;\n    justify-items: center;\n    align-items: center;\n  }\n\n  header {\n    grid-area: title;\n    margin: 0;\n  }\n\n  .category {\n    /* margin: 0 3em; */\n    width: min-content;\n  }\n\n  .category-img {\n    max-height: 100%;\n    min-width: 100%;\n    /* max-width: 36rem; */\n    object-fit: contain;\n  }\n\n  .footer {\n    margin: 0;\n    padding: 0;\n  }\n\n  .split {\n    width: 0;\n    min-height: 70%;\n    max-height: 100%;\n    /* align-self: center; */\n    /* margin: auto; */\n    border-left: 1px solid goldenrod;\n    /* border-bottom: 0; */\n  }\n\n  .gallery-content {\n    grid-template-columns: repeat(4, 1fr);\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/main.css	(revision 93e8287c1b8d09055eb0581d4bdff3d29933f18f)
++++ css/main.css	(date 1599089299956)
+@@ -12,6 +12,14 @@
+   margin: 0;
+   text-align: center;
+   min-height: 100%;
++  --bkg-color: #fff;
++  --font-color: darkgoldenrod;
++  background: var(--bkg-color);
++}
++
++body.dark-theme {
++  --bkg-color: #222222;
++  --font-color: goldenrod;
+ }
+ 
+ body::-webkit-scrollbar {
+@@ -45,8 +53,7 @@
+ }
+ 
+ p {
+-  /* font-weight: 500; */
+-  color: darkgoldenrod;
++  color: var(--font-color);
+   margin: 0;
+ }
+ 
+@@ -61,6 +68,15 @@
+   }
+ }
+ 
++header {
++  position: sticky;
++  width: 100%;
++  background: inherit;
++  top: 0;
++  padding-bottom: 1rem;
++  z-index: 10;
++}
++
+ .landing-page {
+   display: block;
+   height: 75vh;
+@@ -72,7 +88,7 @@
+   margin: 0;
+   padding: 0 1rem;
+   transition-duration: 0.5s;
+-  display: inherit;
++  width: fit-content;
+ }
+ 
+ .title:hover {
+@@ -109,14 +125,6 @@
+   border-bottom: 1px solid goldenrod;
+ }
+ 
+-header {
+-  position: sticky;
+-  width: 100%;
+-  background: white;
+-  top: 0;
+-  padding-bottom: 1rem;
+-  z-index: 10;
+-}
+ 
+ .vertical {
+   display: block;
+@@ -144,7 +152,7 @@
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: xx-large;
+-  margin-top: 2rem;
++  margin-top: 4rem;
+ }
+ 
+ .section-split {
+@@ -245,7 +253,7 @@
+ .statistic {
+   width: 100%;
+   max-width: 320px;
+-  color: darkgoldenrod;
++  color: var(--font-color);
+ }
+ 
+ .statistic p {
+@@ -352,4 +360,4 @@
+   .gallery-content {
+     grid-template-columns: repeat(4, 1fr);
+   }
+-}
++}
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html class=\"no-js\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <title>19.XCV</title>\n    <meta\n      name=\"description\"\n      content=\"19.XCV, photographer, visual artist on Instagram\"\n    />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"stylesheet\" href=\"css/main.css\" type=\"text/css\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap\"\n      rel=\"stylesheet\"\n    />\n    <script\n      src=\"https://kit.fontawesome.com/44f1a6d7cf.js\"\n      crossorigin=\"anonymous\"\n    ></script>\n  </head>\n\n  <body>\n    <header>\n      <a href=\"index.html\" class=\"title\">19.XCV</a>\n      <div class=\"navbar\">\n        <div class=\"navbar\">\n          <a href=\"about.html#about\">About</a>\n          |\n          <a href=\"about.html#contact\">Contact</a>\n          |\n          <a href=\"about.html#services\">Services</a>\n        </div>\n      </div>\n    </header>\n    <div class=\"landing-page\">\n        <a href=\"photography.html\" class=\"category left\">\n          <img\n            class=\"category-img\"\n            src=\"https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/87485034_1020841024982864_7133484120255482440_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=d02PgQXgrwUAX_sKU_9&oh=cd9b48110baf7760aec81f2ca436fdfa&oe=5F786DBC\"\n            alt=\"photography\"\n          />\n          <p class=\"category-text\">Photography</p>\n        </a>\n        <div class=\"split\"></div>\n        <a href=\"marketing.html\" class=\"category right\">\n          <img\n            class=\"category-img\"\n            src=\"img/frontfoot 2.jpg\"\n            alt=\"marketing\"\n          />\n          <p class=\"category-text\">Marketing</p>\n        </a>\n    </div>\n    <div class=\"footer\">\n      <a href=\"https://www.instagram.com/19.XCV/\" target=\"-blank\"\n        ><i class=\"fab fa-instagram-square fa-2x\"></i\n      ></a>\n      <a href=\"https://www.youtube.com/c/19xcv/\" target=\"-blank\">\n        <i class=\"fab fa-youtube-square fa-2x\"></i\n      ></a>\n      <a href=\"mailto: Lan.xcv@yahoo.com\" target=\"-blank\">\n        <i class=\"fas fa-envelope-square fa-2x\"></i\n      ></a>\n    </div>\n  </body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 93e8287c1b8d09055eb0581d4bdff3d29933f18f)
++++ index.html	(date 1599087875048)
+@@ -23,6 +23,9 @@
+   <body>
+     <header>
+       <a href="index.html" class="title">19.XCV</a>
++      <a class="btn-toggle"
++        ><i class="fas fa-moon fa-2x"></i
++      ></a>
+       <div class="navbar">
+         <div class="navbar">
+           <a href="about.html#about">About</a>
+@@ -34,23 +37,19 @@
+       </div>
+     </header>
+     <div class="landing-page">
+-        <a href="photography.html" class="category left">
+-          <img
+-            class="category-img"
+-            src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/87485034_1020841024982864_7133484120255482440_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=d02PgQXgrwUAX_sKU_9&oh=cd9b48110baf7760aec81f2ca436fdfa&oe=5F786DBC"
+-            alt="photography"
+-          />
+-          <p class="category-text">Photography</p>
+-        </a>
+-        <div class="split"></div>
+-        <a href="marketing.html" class="category right">
+-          <img
+-            class="category-img"
+-            src="img/frontfoot 2.jpg"
+-            alt="marketing"
+-          />
+-          <p class="category-text">Marketing</p>
+-        </a>
++      <a href="photography.html" class="category left">
++        <img
++          class="category-img"
++          src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/87485034_1020841024982864_7133484120255482440_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=d02PgQXgrwUAX_sKU_9&oh=cd9b48110baf7760aec81f2ca436fdfa&oe=5F786DBC"
++          alt="photography"
++        />
++        <p class="category-text">Photography</p>
++      </a>
++      <div class="split"></div>
++      <a href="marketing.html" class="category right">
++        <img class="category-img" src="img/frontfoot 2.jpg" alt="marketing" />
++        <p class="category-text">Marketing</p>
++      </a>
+     </div>
+     <div class="footer">
+       <a href="https://www.instagram.com/19.XCV/" target="-blank"
+@@ -63,5 +62,6 @@
+         <i class="fas fa-envelope-square fa-2x"></i
+       ></a>
+     </div>
++    <script src="js/main.js"></script>
+   </body>
+ </html>
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/Project_Default.xml	(date 1599086729082)
++++ .idea/inspectionProfiles/Project_Default.xml	(date 1599086729082)
+@@ -0,0 +1,16 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="myCustomPropertiesEnabled" value="true" />
++      <option name="myIgnoreVendorSpecificProperties" value="false" />
++      <option name="myCustomPropertiesList">
++        <value>
++          <list size="1">
++            <item index="0" class="java.lang.String" itemvalue="scrollbar-width" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1599086604329)
++++ .idea/vcs.xml	(date 1599086604329)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/codeStyleConfig.xml	(date 1599086604316)
++++ .idea/codeStyles/codeStyleConfig.xml	(date 1599086604316)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1599086604299)
++++ .idea/modules.xml	(date 1599086604299)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/19.xcv.iml" filepath="$PROJECT_DIR$/.idea/19.xcv.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/19.xcv.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/19.xcv.iml	(date 1599088048902)
++++ .idea/19.xcv.iml	(date 1599088048902)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="44f1a6d7cf" level="application" />
++  </component>
++</module>
+\ No newline at end of file
+Index: js/main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- js/main.js	(date 1599087476795)
++++ js/main.js	(date 1599087476795)
+@@ -0,0 +1,26 @@
++
++const btn = document.querySelector(".btn-toggle");
++const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
++
++const currentTheme = localStorage.getItem("theme");
++if (currentTheme === "dark") {
++    document.body.classList.toggle("dark-theme");
++} else if (currentTheme === "light") {
++    document.body.classList.toggle("light-theme");
++}
++
++btn.addEventListener("click", function () {
++    if (prefersDarkScheme.matches) {
++        document.body.classList.toggle("light-theme");
++        var theme = document.body.classList.contains("light-theme")
++            ? "light"
++            : "dark";
++    } else {
++        document.body.classList.toggle("dark-theme");
++        var theme = document.body.classList.contains("dark-theme")
++            ? "dark"
++            : "light";
++    }
++    localStorage.setItem("theme", theme);
++});
++
