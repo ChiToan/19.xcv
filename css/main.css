@@ -52,6 +52,19 @@ textarea {
   font-family: "Trirong", serif;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: grey;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: grey;
+}
+
 p {
   color: var(--font-color);
   margin: 0;
@@ -272,7 +285,7 @@ a:hover {
 .contact-form input {
   border: none;
   background: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   width: 100%;
   box-sizing: border-box;
   padding: 1em;
@@ -289,7 +302,7 @@ a:hover {
 .contact-form textarea {
   border: none;
   background: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   font-size: 14px;
   padding: 1em;
 }
@@ -358,5 +371,17 @@ a:hover {
 
   .gallery-content {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: goldenrod
+    --bkg-color: #222222;
+  }
+  body.light-theme {
+    --text-color: darkgoldenrod;
+    --bkg-color: #ffffff;
   }
 }

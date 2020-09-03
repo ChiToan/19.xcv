@@ -1,4 +1,5 @@
 Chart.defaults.global.defaultFontFamily = "'Trirong', serif"
+Chart.defaults.global.defaultFontColor = "#daa520"
 
 var ctx = document.getElementById('gender').getContext('2d');
 // ctx.canvas.width = window.innerWidth;
@@ -56,6 +57,9 @@ var age = new Chart(ctx, {
         },
         ticks: {
           display: false
+        },
+        scaleLabel: {
+          labelString: 'test'
         }
       }],
       yAxes: [{
