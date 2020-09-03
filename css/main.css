@@ -14,7 +14,7 @@ body {
   min-height: 100%;
   --bkg-color: #fff;
   --font-color: darkgoldenrod;
-  background: var(--bkg-color);
+  background: var(--bkg-color) !important;
 }
 
 body.dark-theme {
