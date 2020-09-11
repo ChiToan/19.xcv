@@ -282,6 +282,22 @@ a:hover {
   text-align: start;
 }
 
+.sponsor-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sponsor-content a {
+  flex: 1;
+  margin: 1em 0;
+}
+
+.sponsor-content a img {
+  max-width: 200px;
+}
+
+
+/* About */
 .contact-form {
   display: block;
   max-width: 320px;
