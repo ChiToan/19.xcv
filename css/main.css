@@ -313,6 +313,7 @@ a:hover {
   box-sizing: border-box;
   padding: 1em;
   margin-bottom: 1em;
+  color: var(--font-color);
 }
 
 .contact-form input:invalid {
@@ -328,6 +329,7 @@ a:hover {
   border-bottom: 1px solid grey;
   font-size: 14px;
   padding: 1em;
+  color: var(--font-color);
 }
 
 .contact-form button {
