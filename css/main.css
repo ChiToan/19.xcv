@@ -398,10 +398,10 @@ a:hover {
   .gallery-content {
     grid-template-columns: repeat(4, 1fr);
   }
-
+/* 
   .gallery-wallpaper {
     grid-template-columns: repeat(5, 1fr);
-  }
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
